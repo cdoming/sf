@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spring Final</title>
+    <meta name="description" content="spring Final modulo6">
+    <meta name="keywords" content="ejercicio,bootstrap,bootcamp,web">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-ColorNavbar ">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-2 ColorLogoHeader" href="#">
+                    <img src="assets/img/Logo.png" alt="logo" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Ventas por mayor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-cart-fill"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="SliderProductos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#SliderProductos" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#SliderProductos" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#SliderProductos" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/Slider.png" class="d-block w-100" alt="ofertas">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/img/Slider2.png" class="d-block w-100" alt="destacados">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/Slider 3.png" class="d-block w-100" alt="cyber">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+        <section class="mt-5 px-5">
+            <h2>Limpieza</h2>
+            <article class="row py-3 mx-0 g-2">
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza1.jpg" class="card-img-top mt-3 px-3" alt="Cloro clorinda">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$8.990</del></h6>
+                            <h5 class="card-title text-primary ms-2">$4.990</h5>
+                            <p class="card-text mb-0">Clorinda</p>
+                            <h5 class="card-title">Cloro</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza2.jpg" class="card-img-top mt-3 px-3" alt="Cif crema">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$4.990</del></h6>
+                            <h5 class="card-title text-primary ms-2">$2.490</h5>
+                            <p class="card-text mb-0">CIF</p>
+                            <h5 class="card-title">Crema multiuso</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza3.png" class="card-img-top mt-3 px-3" alt="OMO liquido">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$10.990</del></h6>
+                            <h5 class="card-title text-primary ms-2">$6.490</h5>
+                            <p class="card-text mb-0">OMO</p>
+                            <h5 class="card-title">Detergente líquido</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza4.png" class="card-img-top mt-3 px-3" alt="Lavaloza">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$8.350</del></h6>
+                            <h5 class="card-title text-primary ms-2">$6.490</h5>
+                            <p class="card-text mb-0">QUIX</p>
+                            <h5 class="card-title">Lavaloza</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza5.jpg" class="card-img-top mt-3 px-3" alt="Suavizante">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$4.350</del></h6>
+                            <h5 class="card-title text-primary ms-2">$3.490</h5>
+                            <p class="card-text mb-0">Soft</p>
+                            <h5 class="card-title">Suavizante</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto col-10 col-md-4 col-xg-2">
+                    <div class="card shadow rounded-4 overflow-hidden">
+                        <img src="assets/img/limpieza6.jpg" class="card-img-top mt-3 px-3" alt="Detergente">
+                        <div class="card-body">
+                            <h6 class="card-title text-danger mb-1"><del>$11.350</del></h6>
+                            <h5 class="card-title text-primary ms-2">$8.490</h5>
+                            <p class="card-text mb-0">Ariel</p>
+                            <h5 class="card-title">Detergente en polvo</h5>
+                            <div class="d-grid mt-3">
+                                <a href="#" class="btn botonMod rounded-pill">Agregar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="row bg-seccion mt-5 px-5">
+            <h2 class="text-center mt-5 mb-5">Destacados de Supra Market</h2>
+            <article class="btn-toolbar row-cols-1 row-cols-md-2 row-cols-lg-6 mx-auto flex-wrap justify-content-between text-center w-auto">
+                <a href="#" class="btn rounded-pill btnDestacados activeMod" aria-current="page">Alimentos</a>
+                <a href="#" class="btn rounded-pill btnDestacados">Despensa</a>
+                <a href="#" class="btn rounded-pill btnDestacados">Limpieza</a>
+                <a href="#" class="btn rounded-pill btnDestacados">Variedades</a>
+                <a href="#" class="btn rounded-pill btnDestacados">Mascotas</a>
+                <a href="#" class="btn rounded-pill btnDestacados">Especiales</a>
+            </article>
+            <article class="row my-5 col-9 mx-auto">
+                <div class="py-2 col-sm-12 col-md-6 col-xl-4">
+                    <div class="cardMod rounded-4 shadow-sm border-0">
+                        <div class="card-body p-4"><img src="assets/img/card1.png" alt="super pollo"
+                                class="img-fluid d-block mx-auto mb-3 rounded-4">
+                            <h5><a href="#" class="text-darkMod">Super Pollo</a></h5>
+                            <p class="small text-muted">Descubre la nueva línea de alimentos congelados Super Pollo</p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-2 col-sm-12 col-md-6 col-xl-4">
+                    <div class="cardMod  rounded-4 shadow-sm border-0">
+                        <div class="card-body p-4"><img src="assets/img/card2.png" alt="La Crianza"
+                                class="img-fluid d-block mx-auto mb-3 rounded-4">
+                            <h5><a href="#" class="text-darkMod">La Crianza</a></h5>
+                            <p class="small text-muted">Disfruta los sabores de las nuevas hamburguesas de carne La Crianza</p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-half"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-2 col-sm-12 col-md-6 col-xl-4">
+                    <div class="cardMod rounded-4 shadow-sm border-0">
+                        <div class="card-body p-4"><img src="assets/img/card3.png" alt="Minuto Verde"
+                                class="img-fluid d-block mx-auto mb-3 rounded-4">
+                            <h5><a href="#" class="text-darkMod">Minuto Verde</a></h5>
+                            <p class="small text-muted">Agrega a tus comidas verduras congeladas Minuto Verde, ¡un minuto para ti!</p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star-fill"></i></li>
+                                <li class="list-inline-item m-0"><i class="bi bi-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class=" bg-dark">
+        <section class="container pt-5 pb-2">
+            <article class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-right text-light">
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="mb-4">Centro de ayuda</h4>
+                    <a class="nav-link linkFooter mb-2" href="">Problemas con tu pedido</a>
+                    <a class="nav-link linkFooter mb-2" href="">Información de pago</a>
+                    <a class="nav-link linkFooter mb-2" href="">Comprar en SupraMarket.cl</a>
+                    <a class="nav-link linkFooter" href="">Servicio al cliente</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <h4 class="mb-4">SupraMarket</h4>
+                    <a class="nav-link linkFooter mb-2" href="">Proveedores</a>
+                    <a class="nav-link linkFooter mb-2" href="">Espacio Mypes</a>
+                    <a class="nav-link linkFooter mb-2" href="">Plan por el futuro</a>
+                    <a class="nav-link linkFooter " href="">Acuerdos legales</a>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <H4 class="mb-4">Sucursales</H4>
+                    <h5 class="mb-0">Chillán</h5>
+                    <p>Longitudinal Sur 134</p>
+                    <h5 class="mb-0">Concepción</h5>
+                    <p>Av. Vicente Méndez 1160</p>
+                    <h5 class="mb-0">Los Ángeles</h5>
+                    <p>5 de Abril 699</p>
+                </div>
+                <div class="col mb-5 mb-lg-0">
+                    <H4 class="mb-4">Síguenos</H4>
+                    <a class="nav-link linkFooter d-inline-block fs-3 mx-2" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link linkFooter d-inline-block fs-3 mx-2" href=""><i class="bi bi-instagram"></i></a>
+                    <a class="nav-link linkFooter d-inline-block fs-3 mx-2" href=""><i class="bi bi-youtube"></i></a>
+                    <a class="nav-link linkFooter d-inline-block fs-3 mx-2" href=""><i class="bi bi-twitter"></i></a>
+                </div>
+            </article>
+            <article class="text-center text-light border-top border-black mt-3 pt-3">
+                <p>Creado por Carlos Domínguez</p>
+            </article>
+
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color: #1fa02e;
+}
+
+.btn {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bg-ColorNavbar {
+    background-color: #1fa02e;
+}
+
+.ColorLogoHeader {
+    filter: grayscale(100) brightness(100);
+}
+
+.botonMod {
+    border: 1px solid;
+    color: #1fa02e;
+}
+
+.botonMod:hover {
+    background-color: #1fa02e;
+    color: white;
+
+}
+
+.bg-seccion {
+    background-color: #e5f8e3
+}
+
+.btnDestacados {
+    text-decoration: none;
+    color: #1fa02e;
+    font-weight: 400;
+}
+
+.btnDestacados:hover {
+    background-color: #1fa02e;
+    color: white;
+}
+
+.activeMod {
+    background-color: #f8e688;
+    color: #1fa02e;
+    font-weight: 700;
+
+}
+
+.cardMod{
+    min-height: 360px;
+    background-color: white;
+    transition: all 0.2s ease-out;
+}
+
+.cardMod:hover {
+    transform: scale(1.05);
+}
+
+.text-darkMod {
+    text-decoration: none;
+    color: black;
+}
+
+.linkFooter:hover{
+    color: #1fa02e;
+}
